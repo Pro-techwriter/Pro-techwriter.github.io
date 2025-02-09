@@ -4,26 +4,51 @@
         <meta charset="utf-8">
         <title>Project: Blog</title>
         <style>
+          #image {
+                width: 40%;
+                position: absolute;
+                top: 20px;
+                left: 420px;
+                z-index: 1;
+          }
             #contents {text-align: center;
                 font-size: 30px;
                 color: rgb(112, 107, 12);
                 background-color: rgb(235, 234, 200);
                 font-family: imprint mt shadow;
             }
-            body {background-color: rgb(183, 186, 18);
+            body {background-color: rgb(235, 238, 208);
                 color: rgb(84, 89, 8);
             }
-            #first-project {font-family:script mt;
-                font-size: 28px;
+            .welcome {color: rgb(35, 38, 5);
+                text-align: center;
+                font-size: 17px;
+                font-family: bell mt
             }
+            #welcome2 {font-family: bell mt; 
+                font-size: 20px;
+                text-align: center;
+                color: rgb(35, 38, 5);
+            }
+            #heading {background-color: rgb(144, 159, 9);
+                width: 60%;
+                position: absolute;
+                top: 20px;
+                z-index: 2;
+            }
+          
+    
         </style>
     </head>
     <body>
-        
-        <h1>PRO-TECHWRITER</h1>
-
+      
+      
+        <div id="heading"><h1>Tech<em>W</em>riter</h1>
         <h3 id="contents">Life of a <em>green</em> techie</h3>
-        <h2 id="first-project">My First Project!!</h2>
+      <p class="welcome">Hey there! TechWriter is Bekwele and if you're like me--curious about technology but not quite sure where to start--then you're at the right place! This blog is all about my adventures (and misadventures) in the tech world. No fancy jargon here--just honest, down-to-earth stories of someone learning and growing in the tech space.</p>
+      <p class="welcome">If you're an aspiring techie, a fellow beginner, or just someone who's curious about tech, I hope this blog will be a place where we can learn together!</p>
+       <p id="welcome2">Let's explore, learn, and grow together--one small tech at a time.</p></div>
+      <img id="image" src="https://clickhelp.com/images/feeds/blog/2018.03/5-intro.jpg">
         <ul>
             <li>First post!</li>
         </ul>
